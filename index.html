@@ -11,17 +11,29 @@
       <h1>Calculadora de Áreas Geométricas</h1>
     </header>
     <main>
-      <section id="cuadrado">
+      <section id="contenedor-cuadrado">
         <h2>Área de un Cuadrado</h2>
         <form action="">
           <label for="cuadrado">
-            <span>Ingrese las medida del lado del cuadrado:</span>
-            <input type="text" id="input-cuadrado" />
+            <span>Ingrese las medidas del lado del cuadrado:</span>
+            <input type="text" id="lado-cuadrado" />
             <input type="submit" value="Calcular" />
           </label>
         </form>
       </section>
-      <section id="rectangulo"></section>
+      <section id="contenedor-rectangulo">
+        <h2>Área de un Rectangulo</h2>
+        <form action="">
+          <label for="rectangulo">
+            <span>Ingrese las medidas del rectangulo:</span><br />
+            Base:
+            <input type="text" id="base-rectangulo" />
+            Altura:
+            <input type="text" id="altura-rectangulo" />
+          </label>
+          <input type="submit" value="Calcular" />
+        </form>
+      </section>
       <section id="triangulo"></section>
       <section id="circulo"></section>
       <section id="pentagono"></section>
