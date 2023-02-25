@@ -9,6 +9,7 @@
   <body>
     <header>
       <h1>Calculadora de Áreas Geométricas</h1>
+      <div></div>
     </header>
     <main>
       <section id="seleccion-figura">
@@ -44,6 +45,9 @@
             <button id="btnAreaCuad">Calcular</button>
           </label>
         </form>
+        <article id="section-resultadoCu">
+          <p>El area del cuadrado es: <span id="result-cuadrado"></span></p>
+        </article>
       </section>
       <section id="contenedor-rectangulo">
         <h2>Área de un Rectangulo</h2>
@@ -57,6 +61,9 @@
           </label>
           <button id="btnAreaRect">Calcular</button>
         </form>
+        <article id="section-resultadoR">
+          <p>El area del rectangulo es: <span id="result-rectangulo"></span></p>
+        </article>
       </section>
       <section id="contenedor-triangulo">
         <h2>Área de un Triangulo</h2>
@@ -70,6 +77,9 @@
           </label>
           <button id="btnAreaTria">Calcular</button>
         </form>
+        <article id="section-resultadoT">
+          <p>El area del triangulo es: <span id="result-triangulo"></span></p>
+        </article>
       </section>
       <section id="contenedor-circulo">
         <h2>Área de un Circulo</h2>
@@ -81,11 +91,14 @@
           </label>
           <button id="btnAreaCirc">Calcular</button>
         </form>
+        <article id="section-resultadoCi">
+          <p>El area del circulo es: <span id="result-circulo"></span></p>
+        </article>
       </section>
       <section id="contenedor-pentagono">
         <h2>Área de un Pentágono</h2>
         <form action="">
-          <label for="circulo">
+          <label for="pentagono">
             <span>Ingrese las medidas del pentágono:</span><br />
             Perimetro:
             <input type="text" id="perimetro-pentagono" />
@@ -94,6 +107,9 @@
           </label>
           <button id="btnAreaPent">Calcular</button>
         </form>
+        <article id="section-resultadoP">
+          <p>El area del pentágono es: <span id="result-pentagono"></span></p>
+        </article>
       </section>
     </main>
     <footer>
