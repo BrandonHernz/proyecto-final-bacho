@@ -96,7 +96,7 @@ areaCuadrado.addEventListener("click", (event) => {
   resultadoCuadrado.style.display = "block";
   let txtResultado = document.getElementById("result-cuadrado");
   txtResultado.innerText = `${resultado}`;
-  console.log(parseFloat(resultado));
+  console.log(resultado);
 });
 
 // Área rectangulo
